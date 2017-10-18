@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/effie-0/WeChatTicket/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/effie-0/WeChatTicket/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## WeChatTicket Summary
+非常仓促的两周过去了，相信大家都跟我一样，至少在过去的一周花了大部分时间和精力在这个项目上，写完的时候觉得特别累，但是收获也挺大的。
+### 基本情况
+由于这个作业发布在国庆假期之前，并且一开始我对这个作业的具体要求并不是很清楚（就是语文不好，看不太懂这个作业想要做什么），再加上一开始误会这个作业侧重于测试（诶好像并没有错），所以国庆期间基本上没有动工。然后匆匆忙忙开始写了之后，大概在14号早上才完成基本功能，再加上12号才讲的测试，感觉时间特别不够用。总之，还是挺后悔没有早点开始写（虽然那个时候也不知道怎么写），最后的测试部分我觉得自己也完成的不是很扎实（没有头绪），这是需要反省的部分。
+### 收获
+还是按照时间顺序来讲吧。
+- 配环境
+  作为一个一开始连服务器都不知道怎么连接的小白，如果不是有 https://blog.magichc7.com/?p=5 这篇博客，我应该会倒在配置环境这一步。感谢作者。
+- 熟悉项目
+  按照项目文档里的“前后端接口”部分，可以直接按照接口实现功能，不得不说这让我的开发省了很多力气。另外，个人觉得刚拿来一个项目的时候是最难以进行开发的时候，尽管直觉告诉我应该参照已经完成的用户绑定部分继续进行，但是就是这一步阻止了我提早开始作业的想法（尝试过很多次要开始写，然而就是不知道从哪里入手）。总之下会的话，争取说服自己要克服这种困难吧。
+- 校园账户绑定
+  虽然这是第一个作业中的内容，但是不得不说这项任务实在是太折腾了。从第一个作业的时候愉快地使用id这个网址，到之后连调试都需要内网穿透，这让我整个作业过程充满了“不必要”的操作。就连到了最后，这个模块还是需要重写，实在是让人感觉非常不愉快。
+- 测试
+  的确，周四的课程让我们了解到了Django测试的方法，单元测试、TDD、功能测试，但是不得不说给我们进行新事物尝试的时间实在太少了（虽然太晚完成的我也有错）。整个测试写下来我的脑子里充斥的是“哇这样写到底行不行”、“这个方法是不是这么用的”的自我怀疑中。总之，我打算之后重新了解一下这方面的内容（之后还是会用到的）。
